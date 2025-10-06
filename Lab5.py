@@ -13,7 +13,7 @@ def hollow_square(n):
     for i in range(n - 2):
         shape += '*'
     for i in range(n - 2):
-         shape += ''
+         shape += " "
     shape += '*\n'
     if n > 1:
         for i in range(n):
@@ -49,7 +49,7 @@ def centered_star_pyramid(n):
     shape = ''
     for i in range(1, n+1):
         for j in range(n-i):
-            shape += ''
+            shape += " "
         for j in range(2 * i -1):
             shape += '*'
     shape += '\n'
