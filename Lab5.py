@@ -12,9 +12,9 @@ def hollow_square(n):
     shape += '\n'
     for i in range(n - 2):
         shape += '*'
-    for i in range(n - 2):
-         shape += " "
-    shape += '*\n'
+        for i in range(n - 2):
+            shape += " "
+        shape += '*\n'
     if n > 1:
         for i in range(n):
             shape += '*'
