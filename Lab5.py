@@ -52,5 +52,5 @@ def centered_star_pyramid(n):
             shape += ' '
         for j in range(2 * i - 1):
             shape += '*'
-    shape += '\n'
+        shape += '\n'
     return shape.rstrip()
